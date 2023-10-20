@@ -1,0 +1,129 @@
+/* Write your CSS here */
+.latestMatchContainer {
+  margin-top: 25px;
+}
+
+.latestMatchHeading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 15px;
+  display: block;
+}
+
+.latestMatchCard {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .latestMatchCard {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+  }
+}
+
+.latestMatchDetailsLogoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px;
+}
+@media screen and (min-width: 768px) {
+  .latestMatchDetailsLogoContainer {
+    width: 65%;
+    padding-left: 30px;
+  }
+}
+
+.latestMatchDetailsFirst {
+  width: 70%;
+}
+@media screen and (min-width: 768px) {
+  .latestMatchDetailsFirst {
+    width: 50%;
+    align-self: flex-start;
+  }
+}
+
+.latestMatchTeamName {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 22px;
+}
+@media screen and (min-width: 768px) {
+  .latestMatchTeamName {
+    font-size: 35px;
+  }
+}
+
+.latestMatchDate {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .latestMatchDate {
+    font-size: 25px;
+  }
+}
+
+.matchDetails {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+}
+
+.latestMatchTeamLogo {
+  max-height: 60px;
+}
+@media screen and (min-width: 768px) {
+  .latestMatchTeamLogo {
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+
+.separator {
+  border: 1px solid #475569;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .separator {
+    display: none;
+  }
+}
+
+.latestMatchDetailsSecond {
+  width: 100%;
+  padding: 15px;
+}
+@media screen and (min-width: 768px) {
+  .latestMatchDetailsSecond {
+    text-align: right;
+    width: 30%;
+    padding-right: 32px;
+  }
+}
+
+.latestMatchDetailsLabel {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .latestMatchDetailsLabel {
+    font-size: 20px;
+  }
+}
+
+.latestMatchDetailsVale {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+}
