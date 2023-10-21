@@ -80,7 +80,7 @@ class TeamMatches extends Component {
   }
 
   renderLoader = () => (
-    <div className="loaderContainer" data-testid="loader">
+    <div className="loaderContainer" testid="loader">
       <Loader type="Oval" color="#ffffff" height={50} />
     </div>
   )
