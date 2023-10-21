@@ -9,7 +9,7 @@ import MatchCard from '../MatchCard'
 
 import './index.css'
 
-const teamMatchesApiUrl = 'https://apis.ccbp.in/ipl'
+const teamMatchesApiUrl = 'https://apis.ccbp.in/ipl/'
 
 class TeamMatches extends Component {
   state = {
